@@ -46,24 +46,33 @@
             <div class="mt-4 p-5 text-white rounded">
                 <div class="row">
                     <div class="col">
-                        <?php $no = 1; ?>
-                        <?php foreach ($rows as $data) : ?>
-                        <a class="btn streatched-link" href="aaaa.aa">
-                            <div class="card shadow" style="width: 12rem;">
-                                <img src="../img/<?= $data['gambar']; ?>" alt="" class="cars-img-top" height="100">
-                                <div class="card-body">
-                                    <p class="card-text"><?= $data['nama_barang']; ?></p>
-                                    <p class="card-text">Rp.<?= $data['harga']; ?></p>
-                                </div>
-                            </div>
-                        </a>
-                        <?php $no++; ?>
-                        <?php endforeach; ?>
+                        <h1>Selamat Datang</h1>
                     </div>
                 </div>
             </div>
         </section>
-
+        
+        <section id="Product">
+        <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <?php $no = 1; ?>
+                        <?php foreach ($rows as $data) : ?>
+                            <a class="btn streatched-link" href="aaaa.aa">
+                                <div class="card shadow" style="width: 12rem;">
+                                    <img src="../img/<?= $data['gambar']; ?>" alt="" class="cars-img-top" height="100">
+                                    <div class="card-body">
+                                        <p class="card-text"><?= $data['nama_barang']; ?></p>
+                                        <p class="card-text">Rp.<?= $data['harga']; ?></p>
+                                    </div>
+                                </div>
+                            </a>
+                        <?php $no++; ?>
+                        <?php endforeach; ?>
+                    </div>
+                 </div>
+            </div>
+        </section>
         
 
     <!-- Optional JavaScript; choose one of the two! -->
