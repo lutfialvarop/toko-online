@@ -61,18 +61,20 @@
 
         <!-- Jumbotron -->
         <section id="kosong">
-            <div class="mt-4 p-5 text-white rounded">
-                <div class="row">
-                    <div class="col">
-                        <div class="d-flex bd-highlight">
-                            <h2 class="p-2 flex-grow-1 text-dark bd-highlight">Daftar Barang</h2>
-                            <!-- Button Logout -->
-                            <div class="p-2 bd-highlight">
-                                <button class="btn btn-danger rounded-pill shadow mb-2">
-                                    <a class="link-light" href="AdminLogout.php">Logout</a>
-                                </button>
+            <div class="mt-4 p-5 text-white">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="d-flex bd-highlight">
+                                <h2 class="p-2 flex-grow-1 text-dark bd-highlight">Daftar Barang</h2>
+                                <!-- Button Logout -->
+                                <div class="p-2 bd-highlight">
+                                    <button class="btn btn-danger rounded-pill shadow mb-2">
+                                        <a class="link-light" href="AdminLogout.php">Logout</a>
+                                    </button>
+                                </div>
+                                <!-- End Button -->
                             </div>
-                            <!-- End Button -->
                         </div>
                     </div>
                 </div>
@@ -83,7 +85,7 @@
         <!-- List -->
         <section id="table">
             <div class="table-responsive">
-                <table class="table table-sm mx-2">
+                <table class="table table-sm container">
                     <thead>
                         <tr>
                             <th scope="col">No</th>
